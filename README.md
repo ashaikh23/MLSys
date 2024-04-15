@@ -7,11 +7,11 @@ How to collect samples
 What kind of classifier to use
 Hint:
 
-**Data Preparation:**
+**Data Preparation:** (Should be able to use Specter2 to setup)
    - Load the dataset containing paper titles, abstracts, and labels indicating whether each paper belongs to the MLSys category or not.
    - Preprocess the text data by tokenizing, removing stopwords, and converting words to numerical representations (e.g., word embeddings).
 
-2. **Positive and Negative Sample Selection:**
+2. **Positive and Negative Sample Selection:** (All the papers we have are positive samples and the rest are negative)
    - Identify MLSys papers as positive samples and select an equal number of non-MLSys papers as negative samples.
    - Ensure that the negative samples are carefully chosen to avoid using unrelated art papers or papers from irrelevant domains, as they may introduce bias into the classifier.
 
